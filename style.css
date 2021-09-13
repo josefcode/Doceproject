@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image:url('free-cupcake-pattern-vector.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    position: relative;
+    top : 70px;
+    z-index: 1;
+}   
+h1 {
+    color: rgb(85, 85, 85);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h2 {
+    color:rgb(245, 69, 69);
+    margin-bottom: 10px;
+}
+h3 {
+    color: rgb(250, 62, 62);
+}
+label  {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+input {
+    margin-right: 10px;
+   
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(248, 220, 237);
+    padding : 80px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 40px;
+    margin-bottom: 30px;
+   
+}
+.stylenumber {
+    width: 50px;
+    margin-left: 50px;
+}
+form {
+    text-align: left;
+}
+
+button {
+    margin-top: 50px;
+    width: 300px;
+    padding : 10px;
+    background-color: skyblue;
+    border-radius: 5px;
+    color:rgb(156, 53, 115);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+span {
+    font-size: 12px;
+}
